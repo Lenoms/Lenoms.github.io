@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="../global-styles.css">
+<link rel="stylesheet" href="japan2.css">
+</head>
+<body>
+<div class="header">
+	<div id="inventory">
+		<div id="inventory-title"><h1 id="inventory-title-heading"></h1></div>
+		<div id="inventory-items"></div>
+	</div>
+	<div class="submit-answer">
+		<form id="myForm" onsubmit="check_local_answer('nine', document.getElementById('answer').value)"  autocomplete="off">
+			<input class="input-field" type="text" name="answer" id="answer" placeholder="Enter answer...">
+			<input class="submit-button" type="submit" value="Submit Answer">
+		</form>
+	</div>
+	<div class="nav-arrows">
+		<img class="nav-arrow" id="back-arrow" onclick="nav('eight')" src="../pics/back-arrow.png">
+		<img class="nav-arrow" id ="forward-arrow" onclick="nav('ten')" src="../pics/forward-arrow.png">
+	</div>
+</div>
+<div id="background">
+	<div id="left-side" class="well-side"></div>
+	<img id="well-wall" src="../pics/japan/well-wall.png">
+	<div id="right-side" class="well-side"></div>
+	<img id="water" src="../pics/japan/water.png">
+</div>
+<div id="tile-puzzle-1" class="tile-puzzle">
+	<img src="../pics/japan/1.png">
+</div>
+<div id="tile-puzzle-2" class="tile-puzzle">
+	<img src="../pics/japan/2.png">
+</div>
+<div id="tile-puzzle-3" class="tile-puzzle">
+	<img src="../pics/japan/3.png">
+</div>
+<div id="tile-puzzle-4" class="tile-puzzle">
+	<img src="../pics/japan/4.png">
+</div>
+<div id="tile-puzzle-5" class="tile-puzzle">
+	<img src="../pics/japan/5.png">
+</div>
+<img id="up-arrow" src="../pics/japan/up-arrow.png">
+
+</body>
+<script src="../scripts/global-script.js"></script>
+<script src="japan2.js"></script>
+</html>

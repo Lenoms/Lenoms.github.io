@@ -1,0 +1,55 @@
+body{
+	overflow: hidden;
+	background-color: #684040;
+}
+
+#snowpatch{
+	position: absolute;
+	width: 100%;
+	top: 5%;
+	
+}
+
+#well{
+	position: absolute;
+	width: 25%;
+	z-index: 3;
+}
+
+#cave{
+	position: absolute;
+	left: 70%;
+	width: 35%;
+	
+}
+
+#troll{
+	position: absolute;
+	left: 69%;
+	top: 10%;
+	height: 72%;
+}
+
+.dead{
+	transition: 1s;
+	 transform: rotateZ(90deg) rotateY(10deg) translate(30%,-60%);
+}
+
+.already-dead{
+	transform: rotateZ(90deg) rotateY(10deg) translate(30%,-60%);
+}
+
+#knight{
+	height: 30%;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+}
+
+#knight-speech{
+	z-index: 5;
+	width: 30%;
+	position: absolute;
+	top: 13%;
+	left: 32%;
+}

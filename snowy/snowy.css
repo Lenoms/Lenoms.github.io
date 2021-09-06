@@ -1,0 +1,80 @@
+body{
+	background: linear-gradient(black, navy);
+	overflow: hidden;
+}
+
+.main{
+	z-index: 1
+}
+
+.snowfloor{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 35%;
+	z-index: 0;
+	background-color: #F3F3F3;
+	border-top: solid 3px black;
+}
+
+.table{
+	width: 16%;
+	height: 15%;
+	position: absolute;
+	top: 72%;
+	left: 41%;
+}
+
+#table-img{
+	height: 100%;
+	width: 100%;
+}
+
+.clue{
+	position: relative;
+	left: 40%;
+	top: -80%;
+	height: 30%;
+	transform: rotateX(60deg) rotateZ(180deg);
+	transition: 0.7s ease;
+	z-index: 3;
+}
+
+.clue-big{
+	height: 400%;
+	left: -100%;
+	top:-420%;
+	transform: rotateX(0deg) rotateZ(0deg);
+}
+
+.pinetrees{
+	height: 28%;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	position: absolute;
+	top: 45%;
+}
+
+.pinetrees img{
+	height: 100%;
+	z-index: 2;
+}
+
+#pinetree1{
+	position: relative;
+	top: 60%;
+}
+#pinetree2{
+	position: relative;
+	top: 30%;
+}
+#pinetree9{
+	position: relative;
+	top: 30%;
+}
+#pinetree10{
+	position: relative;
+	top: 60%;
+}
