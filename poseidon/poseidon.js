@@ -117,7 +117,7 @@ $(function() {
    $("#panel").droppable({
 	   accept: "#screwdriver",
 	   drop: function(){
-		   $(this).attr("src","../pics/poseidon/open-panel.png");
+		   $(this).attr("src","../pics/poseidon/open-panel.PNG");
 		   $('.wire').show();
 	   }
    })
