@@ -55,7 +55,7 @@ function add_chest(){
 			$(this).attr("src", "../pics/chest-open.png");
 			var src = document.getElementById("wut");
 			img = document.createElement("img");
-			img.src = "../pics/butterflies/scroll.png";
+			img.src = "../pics/butterflies/scroll.PNG";
 			img.setAttribute("id","scroll");
 			src.appendChild(img);
 			chest_clicked = true;
