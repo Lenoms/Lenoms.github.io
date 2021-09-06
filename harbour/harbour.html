@@ -1,0 +1,73 @@
+<html>
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="../global-styles.css">
+<link rel="stylesheet" href="harbour.css">
+</head>
+<body>
+<div class="header">
+	<div id="inventory">
+		<div id="inventory-title"><h1 id="inventory-title-heading"></h1></div>
+		<div id="inventory-items"></div>
+	</div>
+	<div class="submit-answer">
+		<form id="myForm" onsubmit="check_answer('six', document.getElementById('answer').value)"  autocomplete="off">
+			<input class="input-field" type="text" name="answer" id="answer" placeholder="Enter answer...">
+			<input class="submit-button" type="submit" value="Submit Answer">
+		</form>
+	</div>
+	<div class="nav-arrows">
+		<img class="nav-arrow" id="back-arrow" onclick="nav('five')" src="../pics/back-arrow.png">
+		<img class="nav-arrow" id ="forward-arrow" onclick="nav('seven')" src="../pics/forward-arrow.png">
+	</div>
+</div>
+<div class="main">
+<div class="volcanoes">
+	<img class="volcano" src="../pics/harbour/volcano.png">
+	<img class="volcano" src="../pics/harbour/volcano.png">
+	<img class="volcano" src="../pics/harbour/volcano.png">
+</div>
+<div class="weeds">
+	<img class="weed weed1" src="../pics/harbour/weed1.png">
+	<img class="weed weed1" src="../pics/harbour/weed2.png">
+	<img class="weed weed2" src="../pics/harbour/weed3.png">
+	<img class="weed weed2" src="../pics/harbour/weed4.png">
+</div>
+<div class="fishys">
+	<img class="fish" id="fish1" src="../pics/harbour/fish1.png">
+	<img class="fish" id="fish2" src="../pics/harbour/fish2.png">
+	<img class="fish" id="fish3" src="../pics/harbour/fish3.png">
+	<img class="fish" id="fish4" src="../pics/harbour/fish4.png">
+	<img class="fish" id="fish5" src="../pics/harbour/fish5.png">
+	<img class="fish" id="fish6" src="../pics/harbour/fish6.png">
+	<!-- Freemasons in the pigpen-->
+</div>
+<div class="chests">
+	<div class="chest" id="chest1">
+		<img src="../pics/chest-closed.png">
+		<input class="chest-input" autocomplete="off">
+	</div>
+	<div class="chest" id="chest2">
+		<img src="../pics/chest-closed.png">
+		<input class="chest-input" autocomplete="off">
+	</div>
+	<div class="chest" id="chest3">
+		<img src="../pics/chest-closed.png">
+		<input class="chest-input" autocomplete="off">
+	</div>
+</div>
+<img class="bubbles" id="bubbles1" src="../pics/harbour/bubbles1.png">
+<img class="bubbles" id="bubbles2" src="../pics/harbour/bubbles2.png">
+<img class="bubbles" id="bubbles3" src="../pics/harbour/bubbles3.png">
+
+
+</div>
+<div id="sand"></div>
+</body>
+
+<script src="../scripts/global-script.js"></script>
+<script src="harbour.js"></script>
+</html>
