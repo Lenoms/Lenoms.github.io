@@ -1,0 +1,137 @@
+body{
+	background-color: #F6EBEB;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+}
+
+.puzzle{
+	width: 95%;
+	height: 19%;
+	position: relative;
+	margin: 5px;
+	display: flex;
+	border: 2px solid white;
+	min-width: 1500px;
+	min-height: 120px;
+}
+
+.puzzle-pics{
+	width: 45%;
+	height: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.puzzle-pics img{
+	height: 100%;
+}
+
+.puzzle-answer{
+	width: 50%;
+	height: 100%;	
+	position: relative;
+}
+
+.input-image{
+	width: 92%;
+	height: 40%;
+	position: relative;	
+	left: 2%;
+	top: 40%;
+}
+
+.input-box{
+	height: 50%;
+	padding: 20px;
+	position: absolute; 
+	background: none;
+	border: none;
+	outline: none;
+	font-size: 50;
+	color: red;
+}
+
+@media only screen and (min-width: 2000px) {
+  .input-box {
+    font-size: 85;
+  }
+}
+
+#input-one{
+	width: 60%;
+	left: 1%;
+	top: 18%;
+	letter-spacing: 37px;
+}
+
+#input-two{
+	width: 50%;
+	left: 53%;
+	top: 18%;
+	letter-spacing: 37px;
+}
+
+#input-three{
+	width: 60%;
+	left: -0.5%;
+	top: 18%;
+	letter-spacing: 32px;
+}
+
+#input-four{
+	width: 54%;
+	left: 50%;
+	top: 18%;
+	letter-spacing: 32px;
+}
+
+#input-five{
+	width: 72%;
+	left: 0%;
+	top: 18%;
+	letter-spacing: 34px;
+}
+
+#input-six{
+	width: 39%;
+	left: 64%;
+	top: 18%;
+	letter-spacing: 31px;
+}
+
+#input-seven{
+	width: 66%;
+	left: 1%;
+	top: 19%;
+	letter-spacing: 34px;
+}
+
+#input-eight{
+	width: 50%;
+	left: 56%;
+	top: 19%;
+	letter-spacing: 31px;
+}
+
+#input-nine{
+	width: 99%;
+	left: 0.5%;
+	top: 19%;
+	letter-spacing: 48px;
+}
+
+#puzzle-four-pics{
+	margin-left: 3px;
+}
+
+#puzzle-four-pics img{
+	width: 33.33%;
+}
+
+#gem{
+	height: 50%;
+}

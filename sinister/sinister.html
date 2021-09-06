@@ -1,0 +1,93 @@
+<html>
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="../global-styles.css">
+<link rel="stylesheet" href="sinister.css">
+</head>
+<body>
+<div class="header">
+	<div id="inventory">
+		<div id="inventory-title"><h1 id="inventory-title-heading"></h1></div>
+		<div id="inventory-items"></div>
+	</div>
+	<div class="submit-answer">
+		<form id="myForm" onsubmit="check_answer('four', document.getElementById('answer').value)"  autocomplete="off">
+			<input class="input-field" type="text" name="answer" id="answer" placeholder="Enter answer...">
+			<input class="submit-button" type="submit" value="Submit Answer">
+		</form>
+	</div>
+	<div class="nav-arrows">
+		<img class="nav-arrow" id="back-arrow" onclick="nav('three')" src="../pics/back-arrow.png">
+		<img class="nav-arrow" id ="forward-arrow" onclick="nav('five')">
+	</div>
+</div>
+<div class="main">
+<script>$('.main').hide()</script>
+<div id="puzzle-one" class="puzzle">
+	<div class="puzzle-pics">
+		<img src="../pics/sinister/one-one.png">
+		<img src="../pics/sinister/one-two.png">
+		<img src="../pics/sinister/one-three.jpg">
+	</div>
+	<div class="puzzle-answer">
+		<img class="input-image" src="../pics/sinister/letters.png">
+		<input autocomplete="off" maxlength='6' class="input-box" id="input-one">
+		<input autocomplete="off" maxlength='5' class="input-box" id="input-two">
+	</div>
+</div>
+<div id="puzzle-two" class="puzzle">
+	<div class="puzzle-pics" id="puzzle-pics-two">
+		<img src="../pics/sinister/two-two.png">
+		<img src="../pics/sinister/two-three.png" id="witch">
+		<img src="../pics/sinister/two-four.jpg">
+	</div>
+	<div class="puzzle-answer">
+		<img class="input-image" src="../pics/sinister/letters2.png">
+		<input autocomplete="off" maxlength='6' class="input-box" id="input-three">
+		<input autocomplete="off" maxlength='6' class="input-box" id="input-four">
+	</div>
+</div>
+<div id="puzzle-three" class="puzzle">
+	<div class="puzzle-pics">
+		<img src="../pics/sinister/three-one.jpg">
+		<img src="../pics/sinister/three-two.jpg">
+		<img src="../pics/sinister/three-three.png">
+		<img src="../pics/sinister/three-four.png">
+	</div>
+	<div class="puzzle-answer">
+		<img class="input-image" src="../pics/sinister/letters3.png">
+		<input autocomplete="off" maxlength='8' class="input-box" id="input-five">
+		<input autocomplete="off" maxlength='4' class="input-box" id="input-six">
+	</div>
+</div>
+<div id="puzzle-four" class="puzzle">
+	<div id="puzzle-four-pics" class="puzzle-pics">
+		<img src="../pics/sinister/four-one.png">
+		<img src="../pics/sinister/four-two.png">
+		<img src="../pics/sinister/four-three.png">
+	</div>
+	<div class="puzzle-answer">
+		<img class="input-image" src="../pics/sinister/letters4.png">
+		<input autocomplete="off" maxlength='6' class="input-box" id="input-seven">
+		<input autocomplete="off" maxlength='5' class="input-box" id="input-eight">
+	</div>
+</div>
+<div id="puzzle-five" class="puzzle">
+	<div class="puzzle-pics">
+		<img src="../pics/sinister/five-one.png">
+		<img src="../pics/sinister/five-two.png">
+		<img src="../pics/sinister/five-three.jpg">
+	</div>
+	<div class="puzzle-answer">
+		<img class="input-image" src="../pics/sinister/letters5.png">
+		<input autocomplete="off" maxlength='10' class="input-box" id="input-nine">
+	</div>
+</div>
+</div>
+</body>
+<script src="../scripts/global-script.js"></script>
+<script src="sinister.js"></script>
+</html>
