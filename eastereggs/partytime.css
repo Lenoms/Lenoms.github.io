@@ -1,0 +1,282 @@
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+}
+body:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  background-image: radial-gradient(rgba(255,255,255,0.8) 15%, transparent 26%), radial-gradient(rgba(255,255,255,0.8) 15%, transparent 26%);
+  background-size: 100px 100px;
+  background-position: 0 0, 50px 50px;
+  animation-duration: 1s;
+  animation-name: disco;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform: scaleX(3) scaleY(1.5);
+  transform-origin: left center;
+}
+
+.awesome {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  margin: 0 auto;
+  height: 30em;
+  width: 30em;
+  overflow: hidden;
+  border-radius: 100%;
+  box-shadow: inset 0 0 5em 0 #000;
+  background-color: #aaa;
+  background-image: radial-gradient(circle, rgba(255,255,255,0.8), transparent 50%), radial-gradient(circle, transparent 50%, #000), linear-gradient(135deg, transparent 25%, transparent 74%, #919191 74%, #919191), linear-gradient(315deg, transparent 25%, transparent 74%, #919191 74%, #919191), linear-gradient(135deg, transparent 25%, transparent 74%, #9d9d9d 74%, #9d9d9d), linear-gradient(315deg, transparent 25%, transparent 74%, #9d9d9d 74%, #9d9d9d), linear-gradient(135deg, transparent 25%, transparent 74%, #7c7c7c 74%, #7c7c7c), linear-gradient(315deg, transparent 25%, transparent 74%, #7c7c7c 74%, #7c7c7c);
+  background-size: cover, cover, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px;
+  background-position: center center, center center, 37.5px -25px, 12.5px 0, 0 0, 25px 25px, -25px 0, 0 25px;
+  animation-duration: 1s;
+  animation-name: ball;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  color: #000;
+  text-align: center;
+}
+.awesome:before,
+.awesome:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 75px;
+  right: 105px;
+  height: 25px;
+  width: 25px;
+  opacity: 0;
+  background-color: #fff;
+  animation-duration: 1s;
+  animation-name: sparkle;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.2s;
+}
+.awesome:after {
+  animation-delay: 0.7s;
+}
+em:before {
+  animation-delay: 1s;
+  outline: 1px solid #00f;
+}
+abbr {
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  margin-left: -0.1em;
+
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 0.04em rgba(0,0,0,0.5);
+  color: #fff;
+}
+abbr:before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 10;
+  top: -0.1em;
+  right: 0.2em;
+  height: 0.8em;
+  width: 0.8em;
+  background: radial-gradient(#fff, transparent 50%);
+  transform: scaleY(0.75);
+}
+span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  font-size: 5em;
+  line-height: 1;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transform: translate(-50%, -50%);
+}
+@-moz-keyframes disco {
+  from {
+    background-position: 0 0, 50px 50px;
+  }
+  to {
+    background-position: 100px 0, 150px 50px;
+  }
+}
+@-webkit-keyframes disco {
+  from {
+    background-position: 0 0, 50px 50px;
+  }
+  to {
+    background-position: 100px 0, 150px 50px;
+  }
+}
+@-o-keyframes disco {
+  from {
+    background-position: 0 0, 50px 50px;
+  }
+  to {
+    background-position: 100px 0, 150px 50px;
+  }
+}
+@keyframes disco {
+  from {
+    background-position: 0 0, 50px 50px;
+  }
+  to {
+    background-position: 100px 0, 150px 50px;
+  }
+}
+@-moz-keyframes ball {
+  from {
+    background-position: center center, center center, 37.5px -25px, 12.5px 0, 0 0, 25px 25px, -25px 0, 0 25px;
+  }
+  to {
+    background-position: center center, center center, -12.5px -25px, -37.5px 0, -50px 0, -25px 25px, -75px 0, -50px 25px;
+  }
+}
+@-webkit-keyframes ball {
+  from {
+    background-position: center center, center center, 37.5px -25px, 12.5px 0, 0 0, 25px 25px, -25px 0, 0 25px;
+  }
+  to {
+    background-position: center center, center center, -12.5px -25px, -37.5px 0, -50px 0, -25px 25px, -75px 0, -50px 25px;
+  }
+}
+@-o-keyframes ball {
+  from {
+    background-position: center center, center center, 37.5px -25px, 12.5px 0, 0 0, 25px 25px, -25px 0, 0 25px;
+  }
+  to {
+    background-position: center center, center center, -12.5px -25px, -37.5px 0, -50px 0, -25px 25px, -75px 0, -50px 25px;
+  }
+}
+@keyframes ball {
+  from {
+    background-position: center center, center center, 37.5px -25px, 12.5px 0, 0 0, 25px 25px, -25px 0, 0 25px;
+	 box-shadow: 0 0 20px 0px white;
+  }
+  50%{
+	  box-shadow: 0 0 50px 20px violet;
+  }
+  to {
+    background-position: center center, center center, -12.5px -25px, -37.5px 0, -50px 0, -25px 25px, -75px 0, -50px 25px;
+	  box-shadow: 0 0 20px 0px white;
+  }
+}
+@-moz-keyframes sparkle {
+  from {
+    margin-right: 10px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    margin-right: 60px;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes sparkle {
+  from {
+    margin-right: 10px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    margin-right: 60px;
+    opacity: 0;
+  }
+}
+@-o-keyframes sparkle {
+  from {
+    margin-right: 10px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    margin-right: 60px;
+    opacity: 0;
+  }
+}
+@keyframes sparkle {
+  from {
+    margin-right: 10px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    margin-right: 60px;
+    opacity: 0;
+  }
+}
+
+#heading{
+	position: relative;
+	top: 80%;
+	left: 20%;
+	color: #A32CC4;
+	z-index: 10;
+	font-size: 60;
+	
+}
+
+#audio-box-one{
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 150px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#audio-box-two{
+	position: absolute;
+	top: 5%;
+	left: 75%;
+	width: 150px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#back{
+	position: absolute;
+	bottom: 0;
+	width: 100px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	background-color: green;
+	border-radius: 10%;	
+	cursor: pointer;
+}
+
+#back:hover{
+	background-color: #35D438;
+}
+

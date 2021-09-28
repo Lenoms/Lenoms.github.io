@@ -1,0 +1,120 @@
+body{
+	height: 130%;
+	background-color: #61c456;
+}
+.main{
+	height:130%;
+}
+.tree-box{
+	width: 25%;
+	height: 30%;
+	position: absolute;
+	z-index: 1;
+}
+
+.tree{
+	height: 100%;
+}
+
+.stump{
+	height: 14%;
+	position: relative;
+	left: 38%;
+	top: 80%;
+}
+
+.log{
+	width: 50px;
+	position: relative;
+	left: 45%;
+	top: 80%;
+	
+}
+
+#cabin{
+	position: absolute;
+	width: 13%;
+	top: 72%;
+	left: 34%;
+	z-index: 1;
+}
+#tree1{
+	top:2%;
+	left: -1%;
+}
+#tree2{
+	top:30%;
+	left: 17%;
+}
+#tree3{
+	top:-10%;
+	left: 80%;
+}
+#tree4{
+	top:-7%;
+	left: 40%;
+}
+#tree5{
+	top:17%;
+	left: 55%;
+}
+#tree6{
+	top:-13%;
+	left: 17%;
+}
+#tree7{
+	top:60%;
+	left: 65%;
+}
+#tree8{
+	top:70%;
+	left: 10%;
+}
+#tree9{
+	top:40%;
+	left: 42%;
+}
+#tree10{
+	top:30%;
+	left: 85%;
+}
+#tree11{
+	top:35%;
+	left: -10%;
+}
+
+#apple{
+	width: 30px;
+	position: absolute;
+	top: 88%;
+	left: 78%;
+	z-index:2;
+}
+
+#wut{
+	position: absolute;
+	top: 28%;
+	left: 45%;
+	width: 10%;
+	height: 10%;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+#smoke{
+	position: absolute;
+	height: 50%;
+	left: 25%;
+	bottom: 20%;
+	z-index: 0;
+}
+
+#chest{
+	width: 50%;
+	height: 70%;
+}
+
+#scroll{
+	width: 250px;
+}

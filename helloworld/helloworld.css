@@ -1,0 +1,45 @@
+body{
+	background: linear-gradient(black, #00014A 80%, #E85900);
+	overflow: hidden;
+}
+
+#heading{
+	color: white;
+	text-align: center;
+	font-size: 50;
+	margin-bottom: 5%;
+}
+
+#worlds{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	height: 50%;
+	max-height: 400px;
+}
+
+.world-and-answer{
+	height: 100%;
+	width: 300px;
+	min-width: 300px;
+}
+
+.world-pic{
+	position: relative;
+	z-index:2;
+	width: 100%;
+}
+
+.answer-pic{
+	position: relative;
+	bottom: 70%;
+	left: 35%;
+	z-index: 1;
+	width: 40%;
+}
+
+#pic3{
+	color: white;
+	font-size: 100;
+	bottom: 80%;
+}

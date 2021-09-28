@@ -1,0 +1,214 @@
+body{
+	background-color:#00000d;
+	overflow: hidden;
+}
+
+.main{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.grid{
+	height: 80%;
+	width: 50%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.grid-box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.node{
+	background-color: #D6D6D6;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#player{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: green;
+	position: absolute;
+	left: 17%;
+	top: 57.5%;
+	transition: 0.5s ease-out;
+	z-index: 2;
+	background: radial-gradient(circle at 10px 10px, #5cabff, #000);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 10;
+	color: white;
+}
+
+#enemy{
+	width: 80px;
+	position: absolute;
+	left: 15.7%;
+	top: 10%;
+	z-index: 2;
+	transition: 0.5s ease-out;
+}
+
+.death{
+	animation: death-scene 5s forwards;
+}
+
+
+#victory{
+	position: absolute;
+	left: 18.5%;
+	top: 82%;
+}
+
+#svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.line{
+  stroke-width:1px;
+  stroke: #D6D6D6;
+}
+
+.glow{
+	box-shadow: 0 0 10px 2px white;
+}
+
+.rain{
+	height: 100%;
+	background: url('rain.png');
+	background-image: cover;
+	animation: rain .3s linear infinite;
+}
+
+.rain:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	animation: lightning 10s linear infinite;
+	opacity: 0;
+}
+
+@keyframes death-scene{
+	
+	0%{
+		opacity: 1;
+	}
+	20%{
+		transform:rotateZ(90deg);
+	}
+	10.9%{
+		opacity: 1;
+	}
+	11%{
+		opacity: 0;
+	}
+	12.9%{
+		opacity: 0;
+	}
+	13%{
+		opacity: 1;
+	}
+	14.99%{
+		opacity: 1;
+	}
+	15%{
+		opacity: 0;
+	}
+	16.9%{
+		opacity: 0;
+	}
+	17%{
+		opacity: 1;
+	}
+	25%{
+		opacity: 1;
+	}
+	26%{
+		opacity: 0;
+	}
+	35%{
+		opacity: 1;
+	}
+	40%{
+		opacity: 1;
+	}
+	41%{
+		opacity: 0;
+	}
+	55%{
+		opacity: 0;
+	}
+	55.1%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+		transform:rotateZ(90deg);
+	}
+	
+}
+
+@keyframes rain{
+	0%{
+		background-position: 0% 0%;
+	}
+	100%{
+		background-position: 50% 100%;
+	}
+}
+
+@keyframes lightning{
+	0%{
+		opacity: 0;
+	}
+	10.9%{
+		opacity: 0;
+	}
+	11%{
+		opacity: 1;
+	}
+	11.8%{
+		opacity: 0;
+	}
+	13%{
+		opacity: 0;
+	}
+	13.1%{
+		opacity: 1;
+	}
+	19%{
+		opacity: 0;
+	}
+	59.9%{
+		opacity: 0;
+	}
+	60%{
+		opacity: 1;
+	}
+	63%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+
+

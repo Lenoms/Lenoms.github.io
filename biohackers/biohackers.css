@@ -1,0 +1,132 @@
+
+html, body {
+	max-width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #53e666;
+	overflow:hidden;
+}
+
+.main{
+	width: 100%;
+}
+
+#river{
+	height: 70%;
+	position: absolute;
+	top: -10%;
+	right: 0px;
+	user-select: none;
+}
+
+.puzzle{
+	position: absolute;
+	height:27%;
+	width: 12%;
+	display:flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.name-form{
+	height: 100%;
+	width: 60%;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+
+.puzzle-input{
+	height: 70%;
+	width: 100%;
+	border-radius: 6px;
+	border-style: solid;
+	outline-color: red;
+	
+}
+
+.button-and-input{
+	height: 20%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.music-button{
+	width: 22%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: green;
+	position: relative;
+	cursor: pointer;
+}
+
+.music-button:hover{
+	background-color: #35D438
+}
+
+.button {
+  border: 0;
+  background: transparent;
+  box-sizing: border-box;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+
+  border-color: transparent transparent transparent #E3E3E3;
+  transition: 500ms all ease;
+  cursor: pointer;
+
+  border-style: solid;
+  border-width: 8px 0 8px 14px;
+}
+.button.playing {
+	height: 16px;
+    border-style: double;
+    border-width: 0px 0px 0px 14px;
+	left: 14px;
+ }
+
+.button:hover {
+    border-color: transparent transparent transparent white;
+ }
+
+.person{
+	height: 80%;
+	display: flex;
+	justify-content: center;
+}
+
+.person img{
+	height: 100%;
+}
+
+#puzzle1{
+	top: 4%;
+	left: 50%;
+}
+#puzzle2{
+	left: 80%;
+	top: 60%;
+}
+#puzzle3{
+	left: 30%;
+	top: 60%;
+}
+#puzzle4{
+	left: 10%;
+	top: 20%;
+}
+#puzzle5{
+	top: 3%;
+	left: 75%;
+}
+#puzzle6{
+	top: 45%;
+	left: 55%;
+}

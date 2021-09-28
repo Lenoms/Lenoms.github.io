@@ -1,0 +1,267 @@
+html {
+  font-size: calc(100vmax / 1500 * 100);
+  background-color: #BF8EFA;
+}
+
+.main{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.banner{
+	width: 680px;
+	margin-top: -50px;
+	margin-bottom: 30px;
+}
+
+.music-button{
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #3D0087;
+	cursor: pointer;
+}
+
+.music-button:hover{
+	background-color: #7300FF;
+}
+
+.button {
+  border: 0;
+  background: transparent;
+  box-sizing: border-box;
+  width: 0;
+  height: 0;
+  position: relative;
+  left: 46%;
+  top: 20%;
+
+  border-color: transparent transparent transparent white;
+  transition: 500ms all ease;
+  cursor: pointer;
+
+  border-style: solid;
+  border-width: 12px 0 12px 21px;
+}
+.button.playing {
+	height: 24px;
+    border-style: double;
+    border-width: 0px 0px 0px 21px;
+	left: 46%;
+	top: 20%;
+ }
+
+[class^=firework-] {
+  position: absolute;
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+}
+
+.firework-1 {
+  -webkit-animation: firework-lg 1.2s both infinite;
+          animation: firework-lg 1.2s both infinite;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+  top: 15%;
+  left: 50%;
+}
+
+.firework-2 {
+  -webkit-animation: firework-lg 1.2s both infinite;
+          animation: firework-lg 1.2s both infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  top: 25%;
+  left: 80%;
+}
+
+.firework-3 {
+  -webkit-animation: firework-lg 1.2s both infinite;
+          animation: firework-lg 1.2s both infinite;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+  top: 35%;
+  left: 15%;
+}
+
+.firework-4 {
+  -webkit-animation: firework-md 1.2s both infinite;
+          animation: firework-md 1.2s both infinite;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+  top: 45%;
+  left: 60%;
+}
+
+.firework-5 {
+  -webkit-animation: firework-sm 1.2s both infinite;
+          animation: firework-sm 1.2s both infinite;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+  top: 75%;
+  left: 35%;
+}
+
+.firework-6 {
+  -webkit-animation: firework-md 1.2s both infinite;
+          animation: firework-md 1.2s both infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  top: 75%;
+  left: 25%;
+}
+
+.firework-7 {
+  -webkit-animation: firework-sm 1.2s both infinite;
+          animation: firework-sm 1.2s both infinite;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+  top: 35%;
+  left: 45%;
+}
+
+.firework-8 {
+  -webkit-animation: firework-sm 1.2s both infinite;
+          animation: firework-sm 1.2s both infinite;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+  top: 45%;
+  left: 15%;
+}
+
+.firework-9 {
+  -webkit-animation: firework-sm 1.2s both infinite;
+          animation: firework-sm 1.2s both infinite;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+  top: 55%;
+  left: 75%;
+}
+
+.firework-10 {
+  -webkit-animation: firework-md 1.2s both infinite;
+          animation: firework-md 1.2s both infinite;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+  top: 75%;
+  left: 25%;
+}
+
+.firework-11 {
+  -webkit-animation: firework-md 1.2s both infinite;
+          animation: firework-md 1.2s both infinite;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+  top: 85%;
+  left: 25%;
+}
+
+.firework-12 {
+  -webkit-animation: firework-sm 1.2s both infinite;
+          animation: firework-sm 1.2s both infinite;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+  top: 55%;
+  left: 25%;
+}
+
+.firework-13 {
+  -webkit-animation: firework-lg 1.2s both infinite;
+          animation: firework-lg 1.2s both infinite;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+  top: 80%;
+  left: 75%;
+}
+
+.firework-14 {
+  -webkit-animation: firework-lg 1.2s both infinite;
+          animation: firework-lg 1.2s both infinite;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+  top: 70%;
+  left: 60%;
+}
+
+.firework-15 {
+  -webkit-animation: firework-sm 1.2s both infinite;
+          animation: firework-sm 1.2s both infinite;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+  top: 60%;
+  left: 55%;
+}
+
+@-webkit-keyframes firework-sm {
+  0%, 100% {
+    opacity: 0;
+  }
+  10%, 70% {
+    opacity: 1;
+  }
+  100% {
+    box-shadow: -0.5rem 0rem 0 #fff, 0.5rem 0rem 0 #fff, 0rem -0.5rem 0 #fff, 0rem 0.5rem 0 #fff, 0.35rem -0.35rem 0 #fff, 0.35rem 0.35rem 0 #fff, -0.35rem -0.35rem 0 #fff, -0.35rem 0.35rem 0 #fff;
+  }
+}
+
+@keyframes firework-sm {
+  0%, 100% {
+    opacity: 0;
+  }
+  10%, 70% {
+    opacity: 1;
+  }
+  100% {
+    box-shadow: -0.5rem 0rem 0 #fff, 0.5rem 0rem 0 #fff, 0rem -0.5rem 0 #fff, 0rem 0.5rem 0 #fff, 0.35rem -0.35rem 0 #fff, 0.35rem 0.35rem 0 #fff, -0.35rem -0.35rem 0 #fff, -0.35rem 0.35rem 0 #fff;
+  }
+}
+@-webkit-keyframes firework-md {
+  0%, 100% {
+    opacity: 0;
+  }
+  10%, 70% {
+    opacity: 1;
+  }
+  100% {
+    box-shadow: -0.7rem 0rem 0 #fff, 0.7rem 0rem 0 #fff, 0rem -0.7rem 0 #fff, 0rem 0.7rem 0 #fff, 0.49rem -0.49rem 0 #fff, 0.49rem 0.49rem 0 #fff, -0.49rem -0.49rem 0 #fff, -0.49rem 0.49rem 0 #fff;
+  }
+}
+@keyframes firework-md {
+  0%, 100% {
+    opacity: 0;
+  }
+  10%, 70% {
+    opacity: 1;
+  }
+  100% {
+    box-shadow: -0.7rem 0rem 0 #fff, 0.7rem 0rem 0 #fff, 0rem -0.7rem 0 #fff, 0rem 0.7rem 0 #fff, 0.49rem -0.49rem 0 #fff, 0.49rem 0.49rem 0 #fff, -0.49rem -0.49rem 0 #fff, -0.49rem 0.49rem 0 #fff;
+  }
+}
+@-webkit-keyframes firework-lg {
+  0%, 100% {
+    opacity: 0;
+  }
+  10%, 70% {
+    opacity: 1;
+  }
+  100% {
+    box-shadow: -0.9rem 0rem 0 #fff, 0.9rem 0rem 0 #fff, 0rem -0.9rem 0 #fff, 0rem 0.9rem 0 #fff, 0.63rem -0.63rem 0 #fff, 0.63rem 0.63rem 0 #fff, -0.63rem -0.63rem 0 #fff, -0.63rem 0.63rem 0 #fff;
+  }
+}
+@keyframes firework-lg {
+  0%, 100% {
+    opacity: 0;
+  }
+  10%, 70% {
+    opacity: 1;
+  }
+  100% {
+    box-shadow: -0.9rem 0rem 0 #fff, 0.9rem 0rem 0 #fff, 0rem -0.9rem 0 #fff, 0rem 0.9rem 0 #fff, 0.63rem -0.63rem 0 #fff, 0.63rem 0.63rem 0 #fff, -0.63rem -0.63rem 0 #fff, -0.63rem 0.63rem 0 #fff;
+  }
+}

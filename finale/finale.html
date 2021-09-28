@@ -1,0 +1,73 @@
+<html>
+<!-- One word answers, leading capital letter. All interactive characters from the game feature. --> 
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="../global-styles.css">
+<link rel="stylesheet" href="finale.css">
+</head>
+<body>
+<div class="header">
+	<div id="inventory">
+		<div id="inventory-title"><h1 id="inventory-title-heading"></h1></div>
+		<div id="inventory-items"></div>
+	</div>
+	<div class="submit-answer">
+		<form id="myForm" onsubmit="check_local_answer('fifteen', document.getElementById('answer').value)"  autocomplete="off">
+			<input class="input-field" type="text" name="answer" id="answer" placeholder="Enter answer...">
+			<input class="submit-button" type="submit" value="Submit Answer">
+		</form>
+	</div>
+	<div class="nav-arrows">
+		<img class="nav-arrow" id="back-arrow" onclick="nav('fourteen')" src="../pics/back-arrow.png">
+	</div>
+</div>
+<div class="main">
+	<div class="clues-container">
+		<input id="input-answers">
+		<p class="clue">1. The scientist is in A1</p>
+		<p class="clue">2. The knight is in the bottom row</p>
+		<p class="clue">3. The witch and the troll are in diagonally opposite corners.</p>
+		<p class="clue">4. Amber is immediately to the left of Juliet</p>
+		<p class="clue">5. Dora is immediately to the right of Mike</p>
+		<p class="clue">6. Charlotte is directly above the witch</p>
+		<p class="clue">7. Silvanus is as far away from Peter as possible</p>
+		<p class="clue">8. Four out of five river dwellers are in the same row</p>
+		<p class="clue">9. Every member of column B starts with a D, and are in alphabetical order</p>
+		<h4 class="clue">Who's left?</h4>
+	</div>
+	<div class="grid">
+			<p></p>
+			<p class="label">A</p>
+			<p class="label">B</p>
+			<p class="label">C</p>
+			<p class="label">D</p>
+			<p class="label">1</p>
+			<div id="1" class="grid-box"></div>
+			<div id="2" class="grid-box"></div>
+			<div id="3" class="grid-box"></div>
+			<div id="4" class="grid-box"></div>
+			<p class="label">2</p>
+			<div id="5" class="grid-box"></div>
+			<div id="6" class="grid-box"></div>
+			<div id="7" class="grid-box"></div>
+			<div id="8" class="grid-box"></div>
+			<p class="label">3</p>
+			<div id="9" class="grid-box"></div>
+			<div id="10" class="grid-box"></div>
+			<div id="11" class="grid-box"></div>
+			<div id="12" class="grid-box"></div>
+			<p class="label">4</p>
+			<div id="13" class="grid-box"></div>
+			<div id="14" class="grid-box"></div>
+			<div id="15" class="grid-box"></div>
+			<div id="16" class="grid-box"></div>
+	</div>
+</div>
+</body>
+
+<script src="../scripts/global-script.js"></script>
+<script src="finale.js"></script>
+</html>

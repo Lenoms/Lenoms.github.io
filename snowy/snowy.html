@@ -1,0 +1,63 @@
+<html>
+<!-- brrrr -->
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="../global-styles.css">
+<link rel="stylesheet" href="snowy.css">
+<link rel="stylesheet" href="snow-animation.css">
+</head>
+<body>
+<div class="header">
+	<div id="inventory">
+		<div id="inventory-title"><h1 id="inventory-title-heading"></h1></div>
+		<div id="inventory-items"></div>
+	</div>
+	<div class="submit-answer">
+		<form id="myForm" onsubmit="check_answer('twelve', document.getElementById('answer').value)"  autocomplete="off">
+			<input class="input-field" type="text" name="answer" id="answer" placeholder="Enter answer...">
+			<input class="submit-button" type="submit" value="Submit Answer">
+		</form>
+	</div>
+	<div class="nav-arrows">
+		<img class="nav-arrow" id="back-arrow" onclick="nav('eleven')" src="../pics/back-arrow.png">
+		<img class="nav-arrow" id ="forward-arrow" onclick="nav('thirteen')" src="../pics/forward-arrow.png">
+	</div>
+</div>
+<div class="main">
+	<div class="pinetrees">
+		<img id="pinetree1" src="../pics/snow/tree1.png">
+		<img id="pinetree2" src="../pics/snow/tree2.png">
+		<img id="pinetree3" src="../pics/snow/tree3.png">
+		<img id="pinetree4" src="../pics/snow/tree4.png">
+		<img id="pinetree5" src="../pics/snow/tree5.png">
+		<img id="pinetree6" src="../pics/snow/tree6.png">
+		<img id="pinetree7" src="../pics/snow/tree7.png">
+		<img id="pinetree8" src="../pics/snow/tree8.png">
+		<img id="pinetree9" src="../pics/snow/tree9.png">
+		<img id="pinetree10" src="../pics/snow/tree10.png">
+	</div>
+	<div class="table">
+		<img id="table-img" src="../pics/snow/table.png">
+		<img class="clue" src="../pics/snow/clue.png">
+	</div>
+</div>
+<div class="snowfloor"></div>
+<div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❆</div>
+  <div class="snowflake">❄</div>
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❆</div>
+  <div class="snowflake">❄</div>
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❆</div>
+  <div class="snowflake">❄</div>
+</div>
+</body>
+<script src="../scripts/global-script.js"></script>
+<script src="snowy.js"></script>
+</html>

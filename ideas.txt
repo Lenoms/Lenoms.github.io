@@ -1,0 +1,82 @@
+An inventory with items that will help them in different levels
+A back and forward button to easily traverse levels. Forward button is greyed out till the next level has been achieved. Use local storage to track levels completed.
+A password submit button so you dont have to put it in url bar.
+
+Put the above three things in a header.
+
+A level with trees that can be shaken to find items. Maybe an axe later in the game allows you to go back and chop them
+A level where you have to name some people. Songs will play when you do something and the songs will be there names : Angela, Helen (?)(Hey hey helen), Idk find a taylor one, a few more slightly obscure ones. Okay rework, we'll cut the song at the name. Maybe do donna instead of angela? nicest kids in town (amber), i forgot that you existed (drake), 
+A level where there is a big text box. Inputting into the text field directly outputs to another text field. Spamming 'x' reveals the code? Maybe it reveals the blurb to a dumb movie we've watched or something lol. https://api.jquery.com/keyup/
+A maze where you can't touch the walls. Mouse starts in the middle of the maze. At some point theres a door. You gotta use key from inventory. Theres a path in the maze that leads up to the inventory so you can grab the key and drag it with you. End of maze is button with reveal answer. Idk if this is a plausible idea. Would right click just win? need to disable that somehow I think.
+
+THERES A HOUSE AND A MAP INSIDE THE HOUSE OF THE FOREST. WITH AN X MARKED. CLICK THERE FOR TREASURE. Also maybe put the backpack inside the house.
+
+1. helloworld
+2. forest level.
+3. scrolls
+4. maybe we do one of the ones with images and boxes. plain and simple. bum bilby, tail or swift, keeper of the keys ( if we do this we make the key pick upable, instead of the one in the cave).
+5. songs? there is also a river in this level, and maybe an axe? One dude trades for his axe, one says you gotta use a poison apple on the troll, one says the answer to this level, on
+6. Bomb level. Big ticking pipe bomb. Gotta open it up by solving a math problem or something (pikachus number multiplied by johanna's district or something). Then cut the wires in the correct order. Correct order is said by someone in the river level, after giving their name. ("Blue, then red, but NEVER green").
+7. Maybe something else
+8. Cave level? like the one before had a cave, and we entered it now. Too dark inside though. Can only be lit by using the axe to chop trees, and lighting it with the fire in the house. We find a key in this cave, which can later be used for the maze level. Maybe its a bonus puzzle to get the key, make the bonus puzzle harder. Or the bonus puzzle relies on something else later on in the game.
+
+xx. Maze level
+
+A LEVEL WHERE YOU SORT THE EVENT OF PHINEAS AND FERB SONG EVENTS
+
+MAYBE YOU GOTTA POISON THE APPLE ON THE HAG??? then feed it to a troll whos guarding something lol (IN THE CAVE?)
+
+We could have one which is just a crazy colourful animation level, and the colours have letters, they form words, which forms the answer.
+
+SECRET BONUS PARTY ROOM. ONE OF THE DUDES JUST SAYS SOME RANDOM JIBBERISH, AND IF PUT THAT IN YOU GO TO SECRET BONUS PARTY ROOM.
+
+Maybe ideas for glitch thing: Someone in river level says the five of us, but theres 6. The glitch is there and knows about the bomb ('red, blue, not green'). He's called bezelbub or whatever the bohemian rhapsody name is. Later on, an old man is headed back to his house (in the forest), and comments about the glitch. At this point, if we return to the river level, its gone. carrying on and more things reference the glitch. At some point if we head back parts of the levels begin to break (the house is burned down with the old mans dead body on a pike or something). The whole point of the glitch is something we need to figure out. It could be the final boss? Like things it made reference to or changed could have some kind of logic puzzle, which gives the answer to defeat him when solved. His level could be dark with rain and lightning. The actual puzzle part needs to be figured out, but this could be a fun idea.s
+
+A water tank escape room..? idk im just thinking theres bubbles that are morse code for the password to unlock a chest or something. THe fish have differnt patterns on them? they're pigpen code. The seaweed have differeny numbers of fronds that mean different letters?
+
+Okay after the bomb we have a level with rocks. An old man is there and says "Silvanus: 'Are you okay? I saw that explosion up ahead. I'm going back home to check on my house. I don't know who could be causing such havoc...I hope <its> not back. Are you heading east? You'll need a map to continue that way.
+
+OKay here's a hard one: A snow level with trees. The trees have 6 points, and the ones with snow on them represent braille. The trees are in order and spell 'chronogram'. Theres a also a note on a table with chronograms for famous battles or something. 
+
+Lyrics but changed (thesaurus)? Campfire songs. Google translate!!
+
+An only connect level. Why Beryllium, Why Carbon, Why Gold is a good one. (BeCAuSe) Selenium. Indiana Jones acronyms going backwards (KOTCS, LC, TOD) 
+:O They reveal a 'whats in common' set of 4 songs. The thing in common is songs whose names are their album titles. Do an abba one. Mumford and sons. Taylor?
+
+A semaphore flower level..? this sounds kind of boring though idk.
+
+Multiverse level. Simple house with various furniture. Time machine looking thing. Dude in version 2 explains whats going on.
+Possible ideas:
+- Sudoku where each version has part of the numbers
+- Order the lyrics of a song
+- Box with grid on top of letters. Another level has a grid of colours. And a bookshelf has the order of colours. The three things are clearly related (Mark with a symbol).
+- An x on the ground of one level marks the spot where you click in another to get something. Something else is hidden somewhere, and combined they make something.
+- A mirror verse where things are reversed.
+- You can get a key in a couple of places. One of them can be dragged and the other reflects the changes of the drag. The other one must be dragged to a safe or something.
+- The ultimate goal is to collect a few items and give them to the scientist. Then they can fix the machine and close the multiverse.
+
+- OKay the dude says 'i lost the key'. We dont do two keys, we just make a box on one level with a shadow key. Maybe its in the mirror level :O. 
+- Unlocking the box relies on three pieces of information, found by solving 3 puzzles: The bookshelf one, the music one, and maybe a sudoku, or the semaphore flowers? If semaphore flowers, we could have a book on the book shelf that says semaphore flowers, just to nudge in right direction. 
+
+
+Pictures with semaphore flowers.
+
+<-------TO DO LIST------->
+
+Features:
+
+Change grid colours in multiverse so its not confusing
+Change one sequence puzzle? 
+TESTING TIME, BABY.
+
+Defects:
+
+Air (A), Water (K)
+
+
+THings I would change after they played it:
+- Multiverse link the puzzles more obviously
+- A braille hint for snowy 
+- letters hint for darkness? maybe
+-Maybe link the numbers hint and the well
+- Maybe make witch and gem more obvious?

@@ -1,0 +1,44 @@
+<html>
+<!-- Dark in here, innit? -->
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="../global-styles.css">
+<link rel="stylesheet" href="cave.css">
+</head>
+<body>
+<div class="header">
+	<div id="inventory">
+		<div id="inventory-title"><h1 id="inventory-title-heading"></h1></div>
+		<div id="inventory-items"></div>
+	</div>
+	<div class="submit-answer">
+		<form id="myForm" onsubmit="check_local_answer('ten', document.getElementById('answer').value)"  autocomplete="off">
+			<input class="input-field" type="text" name="answer" id="answer" placeholder="Enter answer...">
+			<input class="submit-button" type="submit" value="Submit Answer">
+		</form>
+	</div>
+	<div class="nav-arrows">
+		<img class="nav-arrow" id="back-arrow" onclick="nav('nine')" src="../pics/back-arrow.png">
+		<img class="nav-arrow" id ="forward-arrow" onclick="nav('eleven')" src="../pics/forward-arrow.png">
+	</div>
+</div>
+<div class="main">
+<div class="text" id="text1"></div>
+<div class="text" id="text2"></div>
+<div class="text" id="text3"></div>
+<div class="text" id="text4"></div>
+<div class="text" id="text5"></div>
+<div class="text" id="text6"></div>
+<div class="text" id="text7"></div>
+<div class="text" id="text8"></div>
+<div class="text" id="text9"></div>
+<div class="text" id="text10"></div>
+<div class="text" id="text11"></div>
+</div>
+</body>
+<script src="../scripts/global-script.js"></script>
+<script src="cave.js"></script>
+</html>

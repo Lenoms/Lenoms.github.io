@@ -1,0 +1,92 @@
+body{
+
+}
+
+#background{
+	display: flex;
+	height: 130%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+}
+
+.well-side{
+	height: 100%;
+	width: 28%;
+	background-color: black;
+}
+
+#well-wall{
+	height: 100%;
+	width: 44%;
+}
+
+#up-arrow{
+	position: absolute;
+	top: 10%;
+	left: 47%;
+	width: 6%;
+}
+
+#water{
+	position: absolute;
+	width: 44.1%;
+	left: 27.9%;
+	bottom: 0;
+	opacity: 80%;
+}
+
+.tile-puzzle{
+	position: absolute;
+	width: 4.75%;
+	height: 4%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tile-puzzle img{
+	height: 80%;
+}
+
+#tile-puzzle-1{
+	top: 85%;
+	left: 49.9%;
+}
+
+#tile-puzzle-2{
+	top: 103.3%;
+	left: 36.5%;
+}
+
+#tile-puzzle-3{
+	top: 70.6%;
+	left: 61%;
+}
+
+#tile-puzzle-4{
+	top: 66%;
+	left: 41%;
+}
+
+#tile-puzzle-5{
+	top: 47.5%;
+	left: 50%;
+}
+
+#hole{
+	width: 4.35%;
+	height: 4%;
+	background-color: black;
+	border-radius: 5px;
+	position: absolute;
+	top: 103.3%;
+	left: 59%;
+}
+
+#sword{
+	position: absolute;
+	left: 58%;
+	top: 110%;
+	width: 5%;
+}

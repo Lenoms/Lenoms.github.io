@@ -1,0 +1,94 @@
+.main{
+	transform: rotateY(180deg);
+}
+
+.shadow-box{
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.dark-chest-puzzle{
+	height: 22%;
+	position: absolute;
+	top: 30%;
+	left: 65%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.dark-chest{
+	height: 100%;
+}
+
+.dark-chest-form{
+	display: flex;
+	width: 70%;
+	justify-content: center;
+}
+
+#dark-chest-input{
+	transform: rotateY(180deg);
+	width: 100%;
+	background-color: grey;
+}
+
+#shadow-key{
+	transform: rotateY(180deg);
+	width: 50px;
+	position: absolute;
+	left: 38%;
+	top: 45%;
+}
+
+.secret-spot{
+	position: absolute;
+	right: 65%;
+	top: 70%;
+	width: 15%;
+	height: 15%;
+}
+
+.tool{
+	width: 10%;
+	height: 10%;
+	position: absolute;
+	top: 15%;
+	transition: 0.5s;
+	transform: rotateX(45deg);
+}
+
+#wirecutters{
+		left:60%;
+}
+
+#screwdriver{
+		left:70%;
+}
+
+.blueprint{
+	width: 10%;
+	height: 10%;
+	position: absolute;
+	transition: 0.5s;
+	transform: rotateX(45deg);
+	left: 40%;
+	top: 15%;
+	z-index: 10;
+}
+
+.blueprint-big{
+	height: 115%;
+	width: 65%;
+	transform: rotateX(0deg);
+	left: 20%;
+}
+
+.targets{
+	height: 16%;
+	position: absolute;
+	left: 50%;
+	top: 13%;
+	transform: rotateZ(15deg);
+}

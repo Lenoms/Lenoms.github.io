@@ -1,0 +1,157 @@
+body{
+	background-image: url("../pics/titletracks/floor.png");
+	background-image: cover;
+	overflow: hidden;
+}
+
+.wall{
+	width: 100%;
+	height: 40%;
+	background-color: #6B2506;
+	position: absolute;
+	left: 0;
+}
+
+.time-machine{
+	width: 15%;
+	height: 60%;
+	position: absolute;
+	right: 0px;
+	top: 10%;
+}
+
+.bookshelf{
+	width: 16%;
+	height: 50%;
+	position: absolute;
+	left: 0px;
+	top: 2%;
+	
+}
+
+.record-player-and-button{
+	width: 50%;
+	height: 25%;
+	position: absolute;
+	left: 0%;
+	bottom: 0%;
+	display: flex;
+	align-items: center;
+}
+
+.record-player{
+	height: 100%;
+	width: 25%;
+}
+
+.record{
+	width: 10%;
+}
+
+.music-button{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: brown;
+	cursor: pointer;
+}
+
+.music-button:hover{
+	background-color: #A86262;
+}
+
+.button {
+  border: 0;
+  background: transparent;
+  box-sizing: border-box;
+  width: 0;
+  height: 0;
+  position: relative;
+  left: 40%;
+  top: 30%;
+
+  border-color: transparent transparent transparent #E3E3E3;
+  transition: 300ms all ease;
+  cursor: pointer;
+
+  border-style: solid;
+  border-width: 8px 0 8px 14px;
+}
+
+.button.playing {
+	height: 16px;
+    border-style: double;
+    border-width: 0px 0px 0px 14px;
+	left: 34%;
+	top: 32%;
+ }
+
+.button:hover {
+    border-color: transparent transparent transparent white;
+ }
+
+.table{
+	width: 33%;
+	height: 33%;
+	position: absolute;
+	left: 25%;
+	top: 40%;
+}
+
+.table-img{
+	width: 100%;
+	height: 100%;
+}
+
+.grid{
+	width: 10%;
+	height: 10%;
+	position: relative;
+	left: 45%;
+	top: -85%;
+	transition: 0.5s;
+	transform: rotateX(45deg);
+}
+
+.grid-big{
+	height: 115%;
+	width: 65%;
+	transform: rotateX(0deg);
+	left: 15%;
+}
+
+.flower-painting{
+	height: 16%;
+	position: absolute;
+	left: 34%;
+	top: 10%;
+}
+
+.tool-box{
+	position: absolute;
+	left: 65%;
+	top: 68%;
+	width: 10%;
+}
+
+.scientist{
+	width: 10%;
+	position: absolute;
+	top: 50%;
+	left: 65%;
+	
+}
+
+.music-frame{
+	height: 16%;
+	position: absolute;
+	left: 60%;
+	top: 10%;
+}
+
+#tools{
+	width: 6%;
+	position: absolute;
+	top: 77%;
+	left: 56%;
+}

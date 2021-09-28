@@ -1,0 +1,51 @@
+<html>
+<!-- Don't think too hard about the logic of this level -->
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="../global-styles.css">
+<link rel="stylesheet" href="titletracks.css">
+</head>
+<body>
+<div class="header">
+	<div id="inventory">
+		<div id="inventory-title"><h1 id="inventory-title-heading"></h1></div>
+		<div id="inventory-items"></div>
+	</div>
+	<div class="submit-answer">
+		<form id="myForm" onsubmit="check_local_answer('fourteen', document.getElementById('answer').value)"  autocomplete="off">
+			<input class="input-field" type="text" name="answer" id="answer" placeholder="Enter answer...">
+			<input class="submit-button" type="submit" value="Submit Answer">
+		</form>
+	</div>
+	<div class="nav-arrows">
+		<img class="nav-arrow" id="back-arrow" onclick="nav('thirteen')" src="../pics/back-arrow.png">
+		<img class="nav-arrow" id ="forward-arrow" onclick="nav('fifteen')" src="../pics/forward-arrow.png">
+	</div>
+</div>
+<div class="wall"></div>
+<div class="main">
+<img class="time-machine" src="../pics/titletracks/time_machine.png">
+<img class="bookshelf" src="../pics/titletracks/special-bookshelf.PNG">
+<div class="record-player-and-button">
+	<img class="record-player" src="../pics/titletracks/empty-record-player.png">
+	<div class="music-button">	
+		<div class="button"></div>
+	</div>
+</div>
+<img class="flower-painting" src="../pics/titletracks/flower2.PNG">
+<div class="table">
+	<img class="table-img" src="../pics/titletracks/table.png">
+</div>
+<img class="scientist" src="../pics/titletracks/scientist.png">
+<img class="music-frame" src="../pics/titletracks/music-frame-1.png">
+
+</div>
+</body>
+
+<script src="../scripts/global-script.js"></script>
+<script src="titletracks.js"></script>
+<script src="music-player.js"></script>
+</html>

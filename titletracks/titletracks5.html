@@ -1,0 +1,68 @@
+<html>
+<!-- level siht fo cigol eht tuoba drah oot kniht t'onD -->
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="../global-styles.css">
+<link rel="stylesheet" href="titletracks.css">
+<link rel="stylesheet" href="titletracks-mirror.css">
+</head>
+<body>
+<script>$('body').hide();</script>
+<div class="header">
+	<div id="inventory">
+		<div id="inventory-title"><h1 id="inventory-title-heading"></h1></div>
+		<div id="inventory-items"></div>
+	</div>
+	<div class="submit-answer">
+		<form id="myForm" onsubmit="check_local_answer('fourteen', document.getElementById('answer').value)"  autocomplete="off">
+			<input class="input-field" type="text" name="answer" id="answer" placeholder="Enter answer...">
+			<input class="submit-button" type="submit" value="Submit Answer">
+		</form>
+	</div>
+	<div class="nav-arrows">
+		<img class="nav-arrow" id="back-arrow" onclick="nav('thirteen')" src="../pics/back-arrow.png">
+		<img class="nav-arrow" id ="forward-arrow" onclick="nav('fifteen')" src="../pics/forward-arrow.png">
+	</div>
+</div>
+<div class="wall"></div>
+<div class="main">
+<img class="time-machine" src="../pics/titletracks/time_machine.png">
+<img class="bookshelf" src="../pics/titletracks/bookshelf.PNG">
+<div class="record-player-and-button">
+	<img class="record-player" src="../pics/titletracks/empty-record-player.png">
+	<div class="music-button">	
+		<div class="button"></div>
+	</div>
+</div>
+<img class="flower-painting" src="../pics/titletracks/flower4.PNG">
+<img class="targets" src="../pics/titletracks/targets.PNG">
+<div class="table">
+	<img class="table-img" src="../pics/titletracks/table.png">
+	<img class="blueprint" src="../pics/titletracks/blueprint.png">
+	<img class="tool" id="wirecutters" src="../pics/titletracks/wirecutters.png">
+	<img class="tool" id="screwdriver" src="../pics/titletracks/screwdriver.png">
+</div>
+
+<div class="dark-chest-puzzle">
+	<img class="dark-chest" src="../pics/titletracks/dark-chest-closed.png">
+	<form class="dark-chest-form">
+		<input id="dark-chest-input" type="text" autocomplete="off">
+	</form>
+</div>
+</div>
+<div class="shadow-box">
+	<div class="secret-spot"></div>
+	<img id="shadow-key" src="../pics/titletracks/shadow-key.png">
+	<script>$('#shadow-key').hide();
+	$('.secret-spot').hide();</script>
+</div>
+<script>$('body').show();</script>
+</body>
+
+<script src="../scripts/global-script.js"></script>
+<script src="titletracks.js"></script>
+<script src="music-player.js"></script>
+</html>

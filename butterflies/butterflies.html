@@ -1,0 +1,71 @@
+<html>
+<!-- Trees! -->
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="../global-styles.css">
+<link rel="stylesheet" href="butterflies.css">
+</head>
+<body>
+<div class="header">
+	<div id="inventory">
+		<div id="inventory-title"><h1 id="inventory-title-heading"></h1></div>
+		<div id="inventory-items"></div>
+	</div>
+	<div class="submit-answer">
+		<form id="myForm" onsubmit="check_answer('two', document.getElementById('answer').value)"  autocomplete="off">
+			<input class="input-field" type="text" name="answer" id="answer" placeholder="Enter answer...">
+			<input class="submit-button" type="submit" value="Submit Answer">
+		</form>
+	</div>
+	<div class="nav-arrows">
+		<img class="nav-arrow" id="back-arrow" onclick="nav('one')" src="../pics/back-arrow.png">
+		<img class="nav-arrow" id ="forward-arrow" onclick="nav('three')" src="../pics/forward-arrow.png">
+	</div>
+</div>
+<div class="main">
+<script>$('.main').hide();</script>
+<div id="tree1" class="tree-box">
+	<img class="tree" src="../pics/butterflies/tree.gif">
+</div>
+<div id="tree2" class="tree-box">
+	<img class="tree" src="../pics/butterflies/tree.gif">
+</div>
+<div id="tree3" class="tree-box">
+	<img class="tree" src="../pics/butterflies/tree.gif">
+</div>
+<div id="tree4" class="tree-box">
+	<img class="tree" src="../pics/butterflies/tree.gif">
+</div>
+<div id="tree5" class="tree-box">
+	<img class="tree" src="../pics/butterflies/tree.gif">
+</div>
+<div id="tree6" class="tree-box">
+	<img class="tree" src="../pics/butterflies/tree.gif">
+</div>
+<div id="tree7" class="tree-box">
+	<img class="tree" src="../pics/butterflies/tree.gif">
+</div>
+<div id="tree8" class="tree-box">
+	<img class="tree" src="../pics/butterflies/tree.gif">
+</div>
+<div id="tree9" class="tree-box">
+	<img class="tree" src="../pics/butterflies/tree.gif">
+</div>
+<div id="tree10" class="tree-box">
+	<img class="tree" src="../pics/butterflies/tree.gif">
+</div>
+<div id="tree11" class="tree-box">
+	<img class="tree" src="../pics/butterflies/tree.gif">
+</div>
+<img id="cabin" src="../pics/butterflies/cabin.png">
+<div id="wut"></div>
+</div>
+</body>
+
+<script src="../scripts/global-script.js"></script>
+<script src="butterflies.js"></script>
+
+</html>

@@ -1,0 +1,86 @@
+<html>
+<!-- Catch him. Kill him. You'll need a powerful weapon though. -->
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="../global-styles.css">
+<link rel="stylesheet" href="finale2.css">
+</head>
+<body>
+<div class="header">
+	<div id="inventory">
+		<div id="inventory-title"><h1 id="inventory-title-heading"></h1></div>
+		<div id="inventory-items"></div>
+	</div>
+	<div class="submit-answer">
+		<form id="myForm" onsubmit="check_local_answer('fifteen', document.getElementById('answer').value)"  autocomplete="off">
+			<input class="input-field" type="text" name="answer" id="answer" placeholder="Enter answer...">
+			<input class="submit-button" type="submit" value="Submit Answer">
+		</form>
+	</div>
+	<div class="nav-arrows">
+		<img class="nav-arrow" id="back-arrow" onclick="nav('fourteen')" src="../pics/back-arrow.png">
+	</div>
+</div>
+<div class="main">
+	<div id="player">You</div>
+	<img id="enemy" src="../pics/finale/Jack2.png">
+	<div class="grid">
+			<div class="grid-box"><div id="node-1" class="node"></div></div>
+			<div class="grid-box"><div id="node-2" class="node"></div></div>
+			<div class="grid-box"><div id="node-3" class="node"></div></div>
+			<div class="grid-box"><div id="node-4" class="node"></div></div>
+			<div class="grid-box"><div id="node-5" class="node"></div></div>
+			<div class="grid-box"><div id="node-6" class="node"></div></div>
+			<div class="grid-box"><div id="node-7" class="node"></div></div>
+			<div class="grid-box"><div id="node-8" class="node"></div></div>
+			<div class="grid-box"><div id="node-9" class="node"></div></div>
+			<div class="grid-box"><div id="node-10" class="node"></div></div>
+			<div class="grid-box"><div id="node-11" class="node"></div></div>
+			<div class="grid-box"><div id="node-12" class="node"></div></div>
+			<div class="grid-box"><div id="node-13" class="node"></div></div>
+			<div class="grid-box"><div id="node-14" class="node"></div></div>
+			<div class="grid-box"><div id="node-15" class="node"></div></div>
+			<div class="grid-box"><div id="node-16" class="node"></div></div>
+	</div>
+	<div class="grid-box"><div id="node-17" class="node"></div></div>
+	<svg id="svg">
+		<line id="line-1" class="line"/>
+		<line id="line-2" class="line"/>
+		<line id="line-3" class="line"/>
+		<line id="line-4" class="line"/>
+		<line id="line-5" class="line"/>
+		<line id="line-6" class="line"/>
+		<line id="line-7" class="line"/>
+		<line id="line-8" class="line"/>
+		<line id="line-9" class="line"/>
+		<line id="line-10" class="line"/>
+		<line id="line-11" class="line"/>
+		<line id="line-12" class="line"/>
+		<line id="line-13" class="line"/>
+		<line id="line-14" class="line"/>
+		<line id="line-15" class="line"/>
+		<line id="line-16" class="line"/>
+		<line id="line-17" class="line"/>
+		<line id="line-18" class="line"/>
+		<line id="line-19" class="line"/>
+		<line id="line-20" class="line"/>
+		<line id="line-21" class="line"/>
+		<line id="line-22" class="line"/>
+		<line id="line-23" class="line"/>
+		<line id="line-24" class="line"/>
+		<line id="line-25" class="line"/>
+		<line id="line-26" class="line"/>
+		<line id="line-27" class="line"/>
+		<line id="line-28" class="line"/>
+	</svg>
+</div>
+<div class="rain"></div>
+</body>
+
+<script src="../scripts/global-script.js"></script>
+<script src="finale2.js"></script>
+
+</html>
