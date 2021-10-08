@@ -1,4 +1,5 @@
-levels.five=true; 
+levels.five=true;
+console.log('');
 populate_levels();
 
 if (levels.six){
